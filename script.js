@@ -1,10 +1,7 @@
 function reproducirVideo(elemento){
-    let reproducir = document.querySelector(".mi-video");
-    reproducir.play();
-    reproducir.muted();
+    elemento.play();
 }
 
 function pausarVideo(elemento){
-    let pausar = document.querySelector(".mi-video");
-    pausar.pause();
+    elemento.pause();
 }
